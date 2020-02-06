@@ -13,7 +13,49 @@
 	margin: auto;
 	color: white;	
 	text-align: center;
-	font-family: sans-serif;
+	font-family: 'Yeseva One', cursive;
 	font-size: 70px;
 	font-weight: 700;
+
+}
+
+.highlight {
+	margin: 50px auto;
+	width: 900px;
+	height: auto;
+	border: 4px solid grey;
+	padding: 24px;
+}
+.vrezka {
+	font-family: 'Didact Gothic', sans-serif;;
+	font-size: 24px;
+}
+.flexcontainer {
+	display:flex;
+	width: 900px
+	margin: auto;
+}
+
+.flexitem {
+	margin: auto;
+	width: 300px;
+}
+
+.square {
+	object-fit: fill;
+	width: 300px;
+}
+
+.h2 {
+	margin: 16px 0px;
+	font-family: 'Yeseva One', cursive;
+	font-size: 20px;
+	color: black;
+	font-weight: 700;
+}
+
+.h3 {
+	font-family:'Didact Gothic', sans-serif;
+	font-size: 18px;
+	color: black;
 }
