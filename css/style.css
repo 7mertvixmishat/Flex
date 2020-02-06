@@ -1,4 +1,19 @@
 .imagecontainer {
+	background-image: url(../img/Malevich.jpg);
 	width: auto;
-	height: 400px;
+	height: 700px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+
+}
+
+.herotext {
+	margin: auto;
+	color: white;	
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 70px;
+	font-weight: 700;
 }
