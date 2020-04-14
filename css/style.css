@@ -25,14 +25,18 @@
 	padding: 24px;
 	display: flex;
 	max-width: 700px;
+	flex-wrap: wrap;
+	justify-content: flex-start ;
+
 }
+
 .vrezka {
 	font-family: 'Didact Gothic', sans-serif;
 	font-size: 24px;
 	margin: auto;
 }
 .flexcontainer {
-	width: 1100px;
+	width: auto;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
@@ -43,6 +47,7 @@
 .flexitem {
 	width: 300px;
 	height: auto;
+	margin: 20px;
 }
 
 .square-black {
@@ -83,4 +88,42 @@
 	font-size: 18px;
 	color: black;
 	width: 300px;
+}
+
+ul.footerContainer{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color: black;
+  height: 100px;
+  width: 100%;
+}
+ul.mainmenu{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  flex-wrap: wrap;
+}
+
+.footerlistitem{
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 16px;
+	margin: 20px;
+	display: block;
+	color: white;
+}
+.mainMenuItem {
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 20px;
+	margin: 20px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	width: 100px;
+}
+.logo {
+	margin-right: 60px
 }
